@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.page{
+    display: grid;
+    height: 100vh;
+    background-color: #EEE;
+    background-size: cover;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4,auto);
+    text-align: end;
+
+}
+
+.header{  
+    width: 100%;
+    background-color: #d4faff;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 85px;
+    grid-area: header; 
+}
+.logo{
+    padding: 11px;
+    margin: 5px;
+    font-size: 2em;
+    border: 1px solid #424242;
+    text-decoration: none;
+    border-radius: 20%;
+    color: #026e6e;
+    background-color: white;
+    transition-property: padding,dashed;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+.logo:hover{
+    background-color: aqua;
+    color: rgb(0, 3, 5);
+    padding: 20px;
+
+}
+
+ h1{
+    padding: 11px;
+    margin: 5px;
+    font-size: 2em;
+    
+    color: #026e6e;
+    font-family: italic;
+    font-weight: bold;
+}
+.logo_ph::first-letter{
+    font-size: 2em;
+    text-shadow: 0px 0px 5px #016969;
+    color: #00a5a5;
+}
+
+img{
+    width: 75%;
+    border-radius: 11px;
+    position: relative;
+    left: -36px;
+    transition-duration: 0.8s;
+}
+table{
+    background-color: white;
+    width: 100%;
+    padding: 2px;
+    font-size: x-large;
+    font-weight: bold;
+    border-spacing: 0px;
+}
+table td{
+    /* border: 1px solid; */
+    padding: 5px;
+    background-color: aliceblue;
+}
+tbody{
+
+}
+table tr {
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */
+
+}
+img:hover{
+    width: 100%;
+}
+ol{
+    list-style: none;
+    background-color: aliceblue;
+}
+button{
+    height: 44px;
+    background-color: #fff;
+    border-radius: 9px;
+    text-transform: capitalize;
+    font-size: large;
+    border-color: #fff;
+}
+@media (max-width:800px){
+    /* .header{
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+    .product{
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+    }
+    .product2{
+        grid-column: 1 / 5;
+        grid-row: 3 / 4;
+    }
+    .product3{
+        grid-column: 1 / 5;
+        grid-row: 4 / 5;
+    }
+    .product4{
+        grid-column: 1 / 5;
+        grid-row: 5 / 6;
+    }
+    .page{
+        grid-template-rows: repeat(6,auto);
+    } */
+
+}

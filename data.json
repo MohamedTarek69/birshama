@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "username": "mohamedtarek",
+        "password": "$2y$10$vsBORuTtVhe7K4HjK.v.hOoVgqlmgaG955zWGL8eGF9k2jy.O7\/E6",
+        "email": "mohamedtarek@gmail.com",
+        "phone_number": "01002097078",
+        "role": "admin"
+    },
+    {
+        "id": 2,
+        "username": "mohamedelsaeed",
+        "password": "$2y$10$qxeYu01R4Fjhz6thnV9AAujRfVsetfHZs1ARowNpP\/xDHDcyS6xzy",
+        "email": "mohamedelsaeed@gmail.com",
+        "phone_number": "01091215398",
+        "role": "admin"
+    },
+    {
+        "id": 3,
+        "username": "phelopaternaeem",
+        "password": "$2y$10$v5LV24pCog6mA\/B0ARJVFugrn.pfuH39c2jxWQSZCISuoWpyhZcF6",
+        "email": "phelopaternaeem@gmail.com",
+        "phone_number": "01271489445",
+        "role": "admin"
+    },
+    {
+        "id": 4,
+        "username": "mohamedabdo",
+        "password": "$2y$10$OhKP5ppgjbfKn3mnhFwn5.XoJSyXFeYcvTnRZQonwJB4IpwDmZqQq",
+        "email": "mohamedabdo@gmail.com",
+        "phone_number": "01212353202",
+        "role": "admin"
+    },
+    {
+        "id": 5,
+        "username": "rawansameh",
+        "password": "$2y$10$N2DUlDGZfxf\/hurfSRXp7O0IeLaGzyFvfMG3lCOPoWSfqzCuylbBG",
+        "email": "rawansameh@gmail.com",
+        "phone_number": "01157569169",
+        "role": "admin"
+    },
+    {
+        "id": 6,
+        "username": "malakmohamed",
+        "password": "$2y$10$QMTyYSNkZpe5B7\/SIJWHgOevITutD7Mf6TqomFZNookHQi\/GdDrBW",
+        "email": "malakmohamed@gmail.com",
+        "phone_number": "01148403342",
+        "role": "admin"
+    },
+    {
+        "id": 7,
+        "username": "yaramohamed",
+        "password": "$2y$10$Mp9kxGH8K30D8CY3PkT5t.ZSRTAXFWkwaAHTtWm7vM4efgPuIpPde",
+        "email": "yaramohamed@gmail.com",
+        "phone_number": "01019774741",
+        "role": "admin"
+    },
+    {
+        "id": 8,
+        "username": "mariamazmy",
+        "password": "$2y$10$ZZgb1MCn3FioNR.W.wpPQOfT4DBSXe9gMhSpzONcLYywE1cgG0buC",
+        "email": "mariamazmy@gmail.com",
+        "phone_number": "01223866141",
+        "role": "admin"
+    },
+    {
+        "id": 9,
+        "username": "customar1",
+        "password": "$2y$10$ktVNspY4Z48eZ\/Q8iOiN5ee8HKd975jJjyT3a8moLGW7XUQjHnW4a",
+        "email": "customar1@gmail.com",
+        "phone_number": "01111111111"
+    },
+    {
+        "id": 10,
+        "username": "customar2",
+        "password": "$2y$10$7kVfQw1JLW2xbYBa45hr0OFA3cs2TFg8RYcAk\/BXwGtpou3hvntqS",
+        "email": "customar2@gmail.com",
+        "phone_number": "01222222222"
+    }
+]

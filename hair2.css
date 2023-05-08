@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    height: 100vh;
+    background-color: #EEE;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "header"
+        "table";
+}
+
+.header {
+    grid-area: header;
+    background-color: #d4faff;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    padding: 11px;
+    margin: 5px;
+    font-size: 2em;
+    border: 1px solid #424242;
+    text-decoration: none;
+    border-radius: 20%;
+    color: #026e6e;
+    background-color: white;
+    transition-property: padding,dashed;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.logo:hover {
+    background-color: aqua;
+    color: rgb(0, 3, 5);
+    padding: 20px;
+}
+
+h1 {
+    padding: 11px;
+    margin: 5px;
+    font-size: 2em;
+    color: #026e6e;
+    font-family: italic;
+    font-weight: bold;
+}
+
+.logo_ph::first-letter {
+    font-size: 2em;
+    text-shadow: 0px 0px 5px #016969;
+    color: #00a5a5;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    transition-duration: 0.8s;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    padding: 2px;
+    font-size: x-large;
+    font-weight: bold;
+    border-spacing: 0px;
+    grid-area: table;
+}
+
+table td {
+    padding: 14px;
+    background-color: aliceblue;
+}
+
+tbody {
+
+}
+
+table tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+img:hover {
+    width: 60%;
+}
+
+ol {
+    list-style: none;
+    background-color: aliceblue;
+}
+
+button {
+    height: 44px;
+    background-color: #fff;
+    border-radius: 9px;
+    text-transform: capitalize;
+    font-size: large;
+    border-color: #fff;
+}
+
+@media (max-width: 767px) {
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        padding-bottom: 20px;
+    }
+    
+    .logo {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        border-radius: 0;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    img {
+        margin-bottom: 20px;
+    }
+    
+    table td {
+        padding: 10px;
+        font-size: large;
+    }
+    
+    .page {
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas:
+            "header"
+            "img"
+            "table";
+    }
+    
+    img {
+        grid-area: img;
+    }
+}

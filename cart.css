@@ -1,0 +1,131 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.shopping.cart {
+    text-align: center;
+    font-size: 36px;
+    margin: 50px 0;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+thead tr {
+    background-color: #ddd;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.medicalstore {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.medicinename {
+    width: 50px;
+    height: 50px;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+button[type="submit"], a.remove {
+    background-color: #026e6e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none; /* add this line to remove underline */
+}
+
+button[type="submit"]:hover, a.remove:hover {
+    background-color: #3e8e41;
+}
+
+/* Cart total styles */
+.box {
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-total h5, .cart-total h6, .cart-total p {
+    margin: 0;
+    padding: 5px;
+}
+
+.cart-total h5 {
+    font-size: 20px;
+}
+
+.cart-total h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cart-total p {
+    font-size: 16px;
+}
+
+.checkout {
+    background-color: #026e6e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.checkout:hover {
+    background-color: #3e8e41;
+}
+#bloghome a{
+    padding: 11px;
+    margin: 5px;
+    font-size: 2em;
+    border: 1px solid #424242;
+    text-decoration: none;
+    border-radius: 20%;
+    color: #026e6e;
+    background-color: white;
+    transition-property: padding,dashed;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}

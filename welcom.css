@@ -1,0 +1,210 @@
+header{
+
+    background-color: #c2d1d100;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px;
+    
+
+    
+}
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 1%)),
+    url(1681835847386.jpg);
+    background-size: cover;
+}
+body{
+    background-color: #e3e3e3;
+}
+/*body{
+
+    background-image: url(1681835847386.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}*/
+h1{
+    
+    color: #026e6e;
+    font-size: 7em;
+    width: 800px;
+    height: 430px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    margin: 3px;
+    padding: 30px;
+    position: absolute;
+    top: 32%;
+    left: 47%;
+    font-family:italic;
+    
+}
+.m{
+    padding-right:  1.1em;
+    justify-content: space-between;
+}
+.aa a{
+    padding: 11px;
+    margin: 5px;
+    font-size: 2em;
+    border: 1px solid #424242;
+    text-decoration:none;
+    border-radius: 20%;
+    color: #026e6e;
+    background-color: white;
+    transition-property: padding;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+.aa a:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+}
+.search-bar input{
+    width: 303px;
+    height: 38px;
+    border: 1px solid #424242;
+    position: absolute;
+    left: 52px;
+    border-radius: 5px;
+    top: 51px;
+
+}
+.icon{
+    position: absolute;
+    left: 12px;
+    border-radius: 5px;
+    float: left;
+    width: 40px;
+    top: 51;
+    height: 38px;
+    border: 1px solid #424242;
+    background-image: url(Apps-Search-icon.png);
+    color: #026e6e00;
+}
+.btn{
+    position: relative;
+    width: 39px;
+    background-size: cover;
+    left: 267px;
+    border: none;
+    border-radius: 8px;
+    background-image: url(Apps-Search-icon.png);
+    height: 38px;
+    top: 1px;
+}
+::placeholder{
+
+    padding-left: 2px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+footer{
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+footer .contact{
+    display: inline-block;
+    font-size: 2em;
+    top:0;
+    font-weight: bold;
+    font-family: italic;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    color: black;
+    right: -120px;
+    font-weight: bold;
+    font-size: x-large;
+}
+footer .number{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    font-weight: bold;
+    font-size: x-large;
+}
+footer .copyright{
+    
+    display: inline-block;
+    position: relative;
+    font-size: large;
+    bottom: -35px;
+    right: -505px;
+
+}
+link{
+    color: #026e6e;
+    left: 20px;
+}
+.notes{
+    position: relative;
+    right: -112px;
+    font-size: x-large;
+    font-weight: bold;
+}
+@media (max-width:800px){
+    .aa a {
+        margin: 16px;
+        font-size: 15px;
+        border: 1px solid #424242;
+        text-decoration: none;
+        border-radius: 20%;
+        color: #026e6e;
+        background-color: white;
+        transition-property: padding;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+    header {
+    background-color: #c2d1d100;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px;
+}
+h1 {
+    color: #026e6e;
+    font-size: 4em;
+    width: 100%;
+    height: 430px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 17%;
+    left: 1%;
+    font-family: italic;
+}
+}
